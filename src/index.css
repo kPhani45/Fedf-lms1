@@ -1,6 +1,11 @@
-/* Ensure your build process uses Tailwind CSS to process these directives */
-/* stylelint-disable at-rule-no-unknown */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* stylelint-enable at-rule-no-unknown */
+
+body {
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
