@@ -1,24 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LMS Project</title>
 
-    <!-- ✅ Google Font -->
+    
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
+    
     <style>
       * {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: linear-gradient(135deg, #7b2ff7, #f107a3);
+        min-height: 100vh;
       }
     </style>
   </head>
-  <body class="bg-gray-50">
+
+  <body>
+    
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+  
+    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>
