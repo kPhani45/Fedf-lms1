@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function App() {
   return (
-    // ✅ Removed double backgrounds and centered cleanly
+    
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-600 to-pink-500 text-white">
       
       {/* Login Card */}
@@ -35,3 +35,4 @@ export default function App() {
     </div>
   );
 }
+
